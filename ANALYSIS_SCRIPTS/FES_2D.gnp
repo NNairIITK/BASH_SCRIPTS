@@ -1,0 +1,32 @@
+set terminal postscript eps enhanced color font 'Helvetica,25'
+set output 'FES_EUS.eps'
+set pm3d interpolate 0,0
+#flush begin ftriangles noborder corners2color mean
+set cntrp bspline
+set cntrp linear
+set cntrp points 10
+set cntrp order 10
+set contour both
+set cntrp levels 100
+set xrange [-3.14:3.08]
+set yrange [-3.14:3.09]
+set xlabel "PHI1(US)"
+#set ylabel "PHI2 (MTD)"
+#set xtics  1.0,2.0,3.0
+#set ytics  1.0,2.0,3.0
+set key right outside
+set view 0,0
+set palette color
+set palette model HSV
+set palette rgbformulae -3,-2,2
+#set palette defined ( -30 "green", -24 "blue", -12 "red", -0.5 "orange", 0 "white" )
+set colorbox vertical user origin 0.08,0.26 size 0.02,0.51
+#set view equal xy
+unset ztics
+unset clabel
+unset key
+#
+#set zrange [-50:54.1]
+set cntrp lev incr -30,2.05,200
+#splot 'free_energy' us (0.529*$1):2:($3+5) with pm3d nocontour , ''us (0.529*$1):2:($3+5) with lines lw 1 lc  "black" nosurface
+splot 'free_energy' us 1:2:3 with pm3d
