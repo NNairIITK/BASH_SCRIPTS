@@ -30,8 +30,8 @@
     	       	sh Install_gromacs.sh -f gromacs-5.1.2.tar.gz -m serial
 
 
-       		CASE 3: Installing GROMACS without patching plumed mpi version
-		sh Install_gromacs.sh -f gromacs-5.1.2.tar.gz 
+       	       CASE 3: Installing GROMACS without patching plumed mpi version
+	       sh Install_gromacs.sh -f gromacs-5.1.2.tar.gz 
 	
 		CASE 4: Install Plumed with mpi (default)
 		sh Install_gromacs.sh -f plumed.zip -i install_plumed
