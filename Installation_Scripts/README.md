@@ -6,20 +6,20 @@
 	 	      C.O Prof. Nisanth Nair
                        IIT KANPUR, INDIA.
         
-#	Installation of Plumed package.
+#	Plumed package.
         USAGE: sh install_plumed.sh  <zipfile|tarfile>    
 	 
-#	Installation of VMD:
+#	VMD:
 	UASGE: sh install_vmd.sh <vmd*.tar.gz|zip> 
               **It need to be run as root admin**
 		
-#       Installation of AmberTools:
+#       AmberTools:
         USAGE: sh install_amber.sh <amber*.tar.gz|zip>
 	 
        
 
-#               INSTALLATION OF GROMACS
-#          [Serial | mpi | plumed-patched ]  
+#       Gromacs Package
+#       [Serial | mpi | plumed-patched ]  
 
                    
   **USAGE:**
