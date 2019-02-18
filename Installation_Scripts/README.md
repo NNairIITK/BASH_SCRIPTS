@@ -19,7 +19,7 @@
        
 
 #               INSTALLATION OF GROMACS
-##          [Serial | mpi | plumed-patched ]  
+#          [Serial | mpi | plumed-patched ]  
 
                    
   **USAGE:**
