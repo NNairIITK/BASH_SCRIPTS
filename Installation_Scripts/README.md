@@ -10,7 +10,7 @@
         USAGE: sh install_plumed.sh  <zipfile|tarfile>    
 	 
 #	Installation of VMD:
-	UASGE: sh install_VMD.sh <vmd*.tar.gz|zip> 
+	UASGE: sh install_vmd.sh <vmd*.tar.gz|zip> 
               **It need to be run as root admin**
 		
 #       Installation of AmberTools:
