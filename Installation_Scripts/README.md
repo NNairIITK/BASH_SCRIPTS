@@ -1,20 +1,25 @@
-#               INSTALLATION OF PLUMED
+##           INSTALLATION SCRIPTS
 
          
          Authour :  **KAPAKAYALA ANJI BABU**
+	              Dept. of Chemistry
 	 	      C.O Prof. Nisanth Nair
                        IIT KANPUR, INDIA.
         
-
-	 Bash Script to Install Plumed package.
-                       
-   
-         Usage   :  sh install_plumed.sh <zipfile|tarfile>    
+#	Installation of Plumed package.
+        USAGE: sh install_plumed.sh  <zipfile|tarfile>    
+	 
+#	Installation of VMD:
+	UASGE: sh install_VMD.sh <vmd*.tar.gz|zip> 
+              **It need to be run as root admin**
+		
+#       Installation of AmberTools:
+        USAGE: sh install_amber.sh <amber*.tar.gz|zip>
+	 
        
 
 #               INSTALLATION OF GROMACS
 ##          [Serial | mpi | plumed-patched ]  
-
 
                    
   **USAGE:**
