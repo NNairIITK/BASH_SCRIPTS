@@ -1,0 +1,30 @@
+set term png
+set output 'multiplot.png'
+set border lw 2
+set xrange [0:2000]
+#set yrange [-3.14:3.4]
+set xlabel "Time (ps)"
+set ylabel "Phi (rad)"
+#set title "REST2 Phi " font' ,20'
+### Start multiplot (2x2 layout)
+set multiplot layout 2,2 rowsfirst
+# --- GRAPH a
+set label 1 'a' at graph 0.92,0.9 font ',8'
+plot "COLVAR.0" u 1:2 w l title'Lamda=1.0' 
+#--- GRAPH b
+set label 1 'b' at graph 0.92,0.9 font ',8'
+plot "COLVAR.1" u 1:2 w l  title'Lamda=0.7'
+# --- GRAPH c
+set label 1 'c' at graph 0.92,0.9 font ',8'
+plot "COLVAR.2" u 1:2 w l title'Lamda=0.5'
+# --- GRAPH d
+set label 1 'd' at graph 0.92,0.9 font ',8'
+plot "COLVAR.4" u 1:2 w l title'Lamda=0.3'
+unset multiplot
+### End multiplot
+#---------------------------------------------------#
+#           ANJI BABU KAPAKAYALA     	            #
+#---------------------------------------------------#
+
+
+
