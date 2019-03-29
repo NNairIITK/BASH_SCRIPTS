@@ -1,28 +1,34 @@
 ##           INSTALLATION SCRIPTS
 
          
-         Authour :  **KAPAKAYALA ANJI BABU**
-	              Dept. of Chemistry
-	 	      C.O Prof. Nisanth Nair
-                       IIT KANPUR, INDIA.
+         	Authour :  **KAPAKAYALA ANJI BABU**
+	        	     Dept. of Chemistry
+	 	      	     C.O Prof. Nisanth Nair
+                             IIT KANPUR, INDIA.
         
-#	Plumed package.
-        USAGE: sh install_plumed.sh  <zipfile|tarfile>    
+* Plumed package.
+
+		USAGE: sh install_plumed.sh  <zipfile|tarfile>    
 	 
-#	VMD:
-	UASGE: sh install_vmd.sh <vmd*.tar.gz|zip> 
-              **It need to be run as root admin**
+* VMD:
+
+		UASGE: sh install_vmd.sh <vmd*.tar.gz|zip> 
+                 **It need to be run as root admin**
 		
-#       AmberTools:
-        USAGE: sh install_amber.sh <amber*.tar.gz|zip>
+* AmberTools:
+  
+  		USAGE: sh install_amber.sh <amber*.tar.gz|zip>
+		
+* Mgltools & Autodock:
+
+		USAGE: bash Install_Autodock.sh
+	* Description:  The script automatically downloads the mgltools & Autodock packages and install them.
+		
 	 
-       
-
-#       Gromacs Package
-#       [Serial | mpi | plumed-patched ]  
-
+* Gromacs Package
+**[Serial | mpi | plumed-patched ]**
                    
-  **USAGE:**
+* **USAGE:**
 
 		CASE 0: Need help ?
 		sh Install_gromacs.sh --help
@@ -40,3 +46,5 @@
 		sh Install_gromacs.sh -f plumed.zip -i install_plumed
  
                     
+      Cheers  !!!
+      Anji Babu
