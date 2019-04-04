@@ -25,6 +25,10 @@
 
 		USAGE: bash Install_Autodock.sh
 	* Description:  The script automatically downloads the mgltools & Autodock packages and install them.
+
+* **Openmpi:**
+	`      USAGE:  bash Install_Openmpi.sh`
+	* Description: The script downloads and install the package openmpi.
 		
 	 
 * **Gromacs:**
