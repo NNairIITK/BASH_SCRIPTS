@@ -1,6 +1,6 @@
 # Package_Installer
 
-**Bash script to install required packages or tools after installation of new Operating System.**
+**Bash script to install required packages or tools after installation of new Operating System (Ubuntu).**
 
     Authour: Anji Babu Kapakyala
            Dept. of Chemistry
@@ -8,9 +8,9 @@
            IIT Kanpur, India.
 
 
-#  USAGE:  sh package_installer.sh
+##  USAGE:  bash package_installer.sh
 
-Will be updated soon.....!!!!
+
 
         Cheers !!!
         Anji Babu
