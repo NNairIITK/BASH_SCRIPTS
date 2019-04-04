@@ -8,7 +8,7 @@
            IIT Kanpur, India.
 
 
-##  USAGE:  bash package_installer.sh
+##  USAGE: sudo bash package_installer.sh
 
 
 
