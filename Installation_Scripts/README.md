@@ -30,7 +30,12 @@
 
 	`      USAGE:  bash Install_Openmpi.sh`
 	* Description: The script downloads and install the package openmpi.
-		
+	
+*  **cmake**
+
+		USAGE: bash Install_cmake.sh
+	  * Description: This script downloads and install the cmake-15.2 version of cmake. Modify the script, 
+	    if other versions needed to install.
 	 
 * **Gromacs:**
 **[Serial | mpi | plumed-patched ]**
